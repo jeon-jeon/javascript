@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- 버거메뉴 : [새우] [불고기] [치킨] [치즈] [떡불] -->
+    <div class="box">
+      <h2>🍔버거메뉴</h2>
+      <button id="burger1">새우</button>
+      <button id="burger2">불고기</button>
+      <button id="burger3">치킨</button>
+      <button id="burger4">치즈</button>
+      <button id="burger5">떡불</button>
+      <!-- 선택된 버거 : [] -->
+      <div class="selbox">
+        <strong>선택된 버거 : </strong>
+        <span id="burger"></span>
+      </div>
+    </div>
+    <!-- 사이드메뉴 : [감자튀김] [치즈스틱] [코우슬로] [콘샐러드] -->
+    <div class="box">
+      <h2>🍟사이드메뉴</h2>
+      <button id="side1">감자튀김</button>
+      <button id="side2">치즈스틱</button>
+      <button id="side3">코우슬로</button>
+      <button id="side4">콘샐러드</button>
+      <!-- 선택된 사이드 : [] -->
+      <div class="selbox">
+        <strong>선택된 사이드 :</strong>
+        <span id="side"></span>
+      </div>
+    </div>
+    <!-- 음료메뉴 : [콜라] [제로콜라] [스프라이트] [오렌지주스] -->
+    <div class="box">
+      <h2>🥤음료메뉴</h2>
+      <button id="drink1">콜라</button>
+      <button id="drink2">제로콜라</button>
+      <button id="drink3">스프라이트</button>
+      <button id="drink4">오렌지주스</button>
+      <!-- 선택된 음료 : [] -->
+      <div class="selbox">
+        <strong>선택된 음료 :</strong>
+        <span id="drink"></span>
+      </div>
+    </div>
+    <!-- 구매하기 : ~버거 ~사이드 ~음료가 구매되었습니다 -->
+    <div class="buybox">
+      <button id="buy" class="button-7">구매하기</button>
+    </div>
+  </body>
+</html>
