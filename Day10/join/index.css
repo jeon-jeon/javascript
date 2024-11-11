@@ -1,0 +1,36 @@
+.container {
+  width: 100vw;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  border-bottom: 2px solid black;
+}
+
+span {
+  color: grey;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.eye {
+  background-color: white;
+  color: grey;
+  border: 1px solid white;
+}
+
+.join {
+  background-color: grey;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 30px;
+  padding: 10px 50px;
+  margin-top: 20px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="title">회원가입</h1>
+      <strong>회원가입 정보를<br />입력해주세요.👀</strong>
+      <div>
+        <input id="inputID" type="text" value="아이디를 입력해주세요." />
+        <!-- <button id="idcheckBtn">중복확인</button> -->
+      </div>
+      <div>
+        <!-- <span id="idcheck2"><i class="fa-solid fa-check"></i>영문/숫자</span> -->
+        <span id="idcheck1"><i class="fa-solid fa-check"></i> 6~20자내외</span>
+      </div>
+      <div>
+        <input id="inputPW" type="password" value="비밀번호를 입력해주세요." />
+        <button id="eyeBtn" class="eye">
+          <i class="fa-solid fa-eye-slash"></i>
+        </button>
+      </div>
+      <div>
+        <!-- <span><i class="fa-solid fa-check"></i>영문</span> -->
+        <!-- <span><i class="fa-solid fa-check"></i>숫자</span> -->
+        <span id="pwcheck1"
+          ><i class="fa-solid fa-check"></i> 특수문자(!@#$%^&*_+~)</span
+        >
+        <span id="pwcheck2"><i class="fa-solid fa-check"></i> 8~20자내외</span>
+      </div>
+      <div>
+        <input id="inputEmail" type="text" value="이메일을 입력해주세요." />
+      </div>
+      <div>
+        <span id="emailcheck"
+          ><i class="fa-solid fa-check"></i> 이메일 형식</span
+        >
+      </div>
+      <!-- <div>
+        <button>휴대폰 인증</button>
+      </div> -->
+
+      <button id="joinBtn" class="join">가입</button>
+    </section>
+  </body>
+</html>
