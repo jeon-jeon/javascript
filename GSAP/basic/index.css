@@ -1,0 +1,26 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 9999px;
+  background-color: skyblue;
+  transform: translateY(300px);
+  opacity: 0;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  transform: translateX(300px);
+  opacity: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  transform: translateY(100px);
+  opacity: 0;
+}

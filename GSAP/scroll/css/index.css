@@ -1,0 +1,32 @@
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.first {
+  background-color: pink;
+}
+
+.second {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.third {
+  background-color: aquamarine;
+}
+
+.box {
+  width: 100px;
+  height: 100%;
+  background-color: yellow;
+  transform: translateX(300px);
+}
+
+.text {
+  font-size: 32px;
+  font-weight: 600;
+  opacity: 0;
+}
