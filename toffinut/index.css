@@ -1,17 +1,21 @@
 body {
   background-color: black;
 }
-
-.first {
+section {
   width: 100vw;
   height: 100vh;
+}
+
+/* first */
+.first {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   position: relative;
 }
 
-.textbox {
+.firstBox {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
@@ -26,29 +30,48 @@ body {
   font-size: 180px;
   font-weight: 800;
 }
+
 .content {
   color: white;
   font-size: 24px;
   width: 50%;
+  line-height: 32px;
+  font-weight: 300;
+  margin-top: 45px;
 }
 
 .img1 {
   position: absolute;
-  left: 400px;
+  left: 20%;
   bottom: 50px;
   z-index: 1;
-  width: 15vw;
+  width: 20vw;
+  opacity: 1;
+}
+/* .img2 {
+  position: absolute;
+  left: 22%;
+  bottom: 64px;
+  width: 17vw;
+} */
+
+.video1 {
+  position: absolute;
+  width: 30vw;
+  object-fit: cover;
+  left: 15%;
+  bottom: 120px;
+  opacity: 0;
 }
 
+/* second */
 .second {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.design {
+.secondBox {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
@@ -63,6 +86,131 @@ body {
   opacity: 0;
 }
 
-.right {
+.end {
   text-align: end;
+}
+
+.studio {
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: transparent;
+}
+
+/* third */
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemBox > h3 {
+  color: #00f1ec;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.itemBox {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.item {
+  margin-right: 45px;
+  color: white;
+  font-size: 56px;
+  line-height: 68px;
+  opacity: 0;
+}
+
+/* fourth */
+.fourth {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.fourth > h1 {
+  font-size: 46px;
+  color: white;
+  line-height: 52px;
+  font-weight: 300;
+}
+
+.more_container {
+  display: flex;
+  gap: 20px;
+  padding: 50px 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 600;
+  flex: 0 0 400px;
+  color: white;
+}
+
+.card > span {
+  font-size: 12px;
+}
+
+.card > h2 {
+  font-size: 32px;
+}
+
+.badge_contatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.badgeBox {
+  display: flex;
+  justify-content: center;
+}
+
+.badgeBox > img {
+  width: 250px;
+}
+
+/* fifth */
+.fifth {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.fifth__text > h1 {
+  color: #00f1ec;
+  font-size: 38px;
+  line-height: 44px;
+}
+.fifth__text > p {
+  color: white;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.brandContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+.brandBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  transform: translateX(900px);
+  opacity: 0;
+}
+.brandBox > img {
+  width: 100px;
 }
