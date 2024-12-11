@@ -1,0 +1,18 @@
+/* video */
+.sc_video {
+  width: 100%;
+  position: relative;
+}
+
+.sc_video > video {
+  max-width: 100%;
+  position: absolute;
+}
+
+.sc_video > img {
+  position: absolute;
+  width: 20vw;
+  top: 40%;
+  left: 40%;
+  opacity: 0.5;
+}
